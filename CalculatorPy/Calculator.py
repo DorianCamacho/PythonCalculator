@@ -4,7 +4,7 @@ from tkinter import messagebox
 class Calculator(tk.Tk):
     def __init__(self):
         super().__init__()
-        self.geometry("400x450")
+        self.geometry("300x350")
         self.resizable(0,0)
         self.title("Calculator")
         self.iconbitmap("Calculator.ico")
